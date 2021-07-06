@@ -1,0 +1,68 @@
+#    ============================ THIS IS THE LIGHT WEIGHT TAG ==================================
+git tag
+PS C:\Users\91884\Desktop\TASKS> git tag --list
+PS C:\Users\91884\Desktop\TASKS> git tag v1.1
+PS C:\Users\91884\Desktop\TASKS> git show v1.1
+commit b7cc1d6af66ca67a20f9e3334bb9b118bf4791ad (HEAD -> main, tag: v1.1, origin/main)
+Author: abhigyan-pandey <abhigyan.pandey@zemosolabs.com>
+Date:   Tue Jul 6 14:38:22 2021 +0530
+
+    Staging the gitignore files
+
+diff --git a/foo.s b/foo.s
+new file mode 100644
+index 0000000..e69de29
+diff --git a/ignoredfile.txt b/ignoredfile.txt
+index e69de29..93a57de 100644
+--- a/ignoredfile.txt
++++ b/ignoredfile.txt
+@@ -0,0 +1 @@
++Changing the file.
+\ No newline at end of file
+diff --git a/text.gitignore b/text.gitignore
+new file mode 100644
+index 0000000..5b29953
+--- /dev/null
++++ b/text.gitignore
+@@ -0,0 +1,2 @@
++*.s
++*.txt
+\ No newline at end of file
+
+
+
+
+
+# =====================================THIS IS THE ANNOTATED TAG ====================================
+PS C:\Users\91884\Desktop\TASKS> git tag -a v1.1.a -m "Here is the annotated tags"
+PS C:\Users\91884\Desktop\TASKS> git show v1.1.a
+tag v1.1.a
+Tagger: abhigyan-pandey <abhigyan.pandey@zemosolabs.com>
+Date:   Tue Jul 6 15:01:07 2021 +0530
+
+Here is the annotated tags
+
+commit b7cc1d6af66ca67a20f9e3334bb9b118bf4791ad (HEAD -> main, tag: v1.1.a, tag: v1.1, origin/main)
+Author: abhigyan-pandey <abhigyan.pandey@zemosolabs.com>
+Date:   Tue Jul 6 14:38:22 2021 +0530
+
+    Staging the gitignore files
+
+diff --git a/foo.s b/foo.s
+new file mode 100644
+index 0000000..e69de29
+diff --git a/ignoredfile.txt b/ignoredfile.txt
+index e69de29..93a57de 100644
+--- a/ignoredfile.txt
++++ b/ignoredfile.txt
+@@ -0,0 +1 @@
++Changing the file.
+\ No newline at end of file
+diff --git a/text.gitignore b/text.gitignore
+new file mode 100644
+index 0000000..5b29953
+--- /dev/null
++++ b/text.gitignore
+@@ -0,0 +1,2 @@
++*.s
++*.txt
