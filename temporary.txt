@@ -3,3 +3,4 @@ Adding changes.
 
 SQUASH Commit-1.
 SQUASH Commit-2.
+SQUASH Commit-3.
