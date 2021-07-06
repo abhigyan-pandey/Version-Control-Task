@@ -1,2 +1,4 @@
 This is a temporary file for reset command.
 Adding changes.
+
+SQUASH Commit-1.
